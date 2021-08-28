@@ -1,0 +1,12 @@
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\bin\Debug\net5.0\CinemaFunctions.deps.json
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\bin\Debug\net5.0\CinemaFunctions.dll
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\bin\Debug\net5.0\ref\CinemaFunctions.dll
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\bin\Debug\net5.0\CinemaFunctions.pdb
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\obj\Debug\net5.0\CinemaFunctions.csproj.AssemblyReference.cache
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\obj\Debug\net5.0\CinemaFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\obj\Debug\net5.0\CinemaFunctions.AssemblyInfoInputs.cache
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\obj\Debug\net5.0\CinemaFunctions.AssemblyInfo.cs
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\obj\Debug\net5.0\CinemaFunctions.csproj.CoreCompileInputs.cache
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\obj\Debug\net5.0\CinemaFunctions.dll
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\obj\Debug\net5.0\ref\CinemaFunctions.dll
+C:\Users\Kenny\source\repos\Kenny-WilliamsStockdale\sdv502-assessment1\CinemaFunctions\obj\Debug\net5.0\CinemaFunctions.pdb
