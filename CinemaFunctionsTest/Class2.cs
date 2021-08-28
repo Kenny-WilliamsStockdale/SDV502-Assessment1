@@ -10,7 +10,7 @@ namespace CinemaFunctionsTest
         [TestCase(1, "Adult", "Monday", 4, 14.50)]
         [TestCase(2, "Adult", "Monday", 4, 29.00)]
         [TestCase(0, "Adult", "Monday", 4, -1)]
-        [TestCase(4, "Adult", "Monday", 5, -1)]
+        [TestCase(4, "Adult", "Monday", 6, -1)]
         [TestCase(4, "Adult", "Monday", 4, 58.00)]
 
 
@@ -25,6 +25,30 @@ namespace CinemaFunctionsTest
 
         }
         
+
+    }
+
+    public class TestCase2
+    {
+        //Adult_After_5(int quantitiy, string person, string day, decimal time, decimal expected) 
+        [TestCase(1, "Child", "Monday", 4, -1)]
+        [TestCase(2, "Adult", "Sunday", 4, -1)]
+        [TestCase(1, "Adult", "Monday", 6, 17.50)]
+        [TestCase(4, "Adult", "Monday", 5, 70.00)]
+        [TestCase(3, "Adult", "Wednesday",7, 52.50)]
+
+
+        public void Adult_After_5(int pr_quantity, string pr_person, string pr_day, decimal pr_time, decimal expected)
+        {
+            //arange
+            TicketPriceController TPC = new();
+            //act
+            decimal price = TPC.Adult_After_5(pr_quantity, pr_person, pr_day, pr_time);
+            //assert
+            Assert.That(price == expected);
+
+        }
+
 
     }
 }
