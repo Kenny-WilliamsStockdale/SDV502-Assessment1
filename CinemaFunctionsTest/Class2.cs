@@ -9,7 +9,7 @@ namespace CinemaFunctionsTest
         //Adult_Before_5(int quantitiy, string person, string day, decimal time, decimal expected) 
         [TestCase(1, "adult", "Monday", 4, 14.50)]
         [TestCase(2, "adult", "Monday", 4, 29.00)]
-        [TestCase(0, "adult", "Monday", 4, -1)]
+        [TestCase(0, "senior", "Monday", 4, -1)]
         [TestCase(4, "adult", "Monday", 6, -1)]
         [TestCase(4, "adult", "Monday", 4, 58.00)]
 
@@ -153,9 +153,9 @@ namespace CinemaFunctionsTest
         //Family_Pass(int pr_quantity_ticket, int pr_quantity_adult, int pr_quantity_child, decimal expected) 
         [TestCase(1, 2, 2, 46.00)]
         [TestCase(1, 1, 3, 46.00)]
-        [TestCase(2, 2, 6, -1)]
+        [TestCase(2, 2, 6, 92.00)]
         [TestCase(1, 3, 1, -1)]
-        [TestCase(2, 4, 4, -1)]
+        [TestCase(2, 4, 4, 92.00)]
 
 
         public void Family_Pass(int pr_quantity_ticket, int pr_quantity_adult, int pr_quantity_child, decimal expected)
